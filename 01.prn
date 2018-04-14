@@ -1,0 +1,12 @@
+                  	ORG 00H
+   0000   e8            	SEX 8
+   0001   f8 00         	LDI 00H
+   0003   b8            	PHI 8
+   0004   f8 20         	LDI 20H
+   0006   a8            	PLO 8
+   0007   f8 02         	LDI 02H
+   0009   fc 03         	ADI 03H
+   000b   58            	STR 8
+   000c   64            	OUT 4
+                  	END
+
